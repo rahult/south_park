@@ -18,4 +18,6 @@ group :development do
   gem 'pry-rails'
   gem 'pry-doc'
   gem 'pry-theme'
+  gem 'pry-remote'
+  gem 'powder'
 end
