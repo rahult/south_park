@@ -19,5 +19,8 @@ group :development do
   gem 'pry-doc'
   gem 'pry-theme'
   gem 'pry-remote'
+  gem 'pry-remote-em'
+  gem 'pry-debugger'
+  gem 'pry-stack_explorer'
   gem 'powder'
 end
