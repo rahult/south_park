@@ -15,7 +15,8 @@ class CharactersController < ApplicationController
   def show
     @character = Character.find(params[:id])
 
-    # binding.pry if @character.name.include?("Butters")
+    # binding.pry if @character.name.include?("Butters") # Runtime Invocation
+    binding.pry_remote if @character.name.include?("Butters") # Remote connection to Runtime Invocation
 
     respond_to do |format|
       format.html # show.html.erb

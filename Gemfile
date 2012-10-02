@@ -22,5 +22,7 @@ group :development do
   gem 'pry-remote-em'
   gem 'pry-debugger'
   gem 'pry-stack_explorer'
+  gem 'pry-exception_explorer'
+  gem 'pry-developer_tools'
   gem 'powder'
 end
